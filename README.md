@@ -18,7 +18,7 @@ This repository contains the database of the Foreign Interference Attribution Tr
     git push origin master
     ```
 
-2. Add accompanying case images to the `images` folder. The images should be `jpg` photos and names with the respective `case hash`. Commit and push to GitHub.
+2. Add accompanying case images to the `images` folder. The images should be `jpg` photos and named with the respective `case hash`. Commit and push to GitHub.
 
 3. The data visualization will automatically fetch the new dataset.
 
@@ -36,7 +36,7 @@ This repository contains the database of the Foreign Interference Attribution Tr
 Consider testing the visualization locally before you push changes to the live website.
 
 1. Follow [the instructions in the data visualization repository](https://github.com/DFRLab/interference2020/blob/master/README.md) to have it run on your local computer.
-2. Go to `src/inputs/dataPaths.js` and change `data` to the local data csv file.
+2. Go to `src/inputs/dataPaths.js` and change `data` to the local data csv file. Note: The local data csv must be located in the public folder.
 3. Open http://localhost:5000 in a modern browser and check, if everything is displayed correctly.
 
 
